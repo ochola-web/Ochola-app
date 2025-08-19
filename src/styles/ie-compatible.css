@@ -1,0 +1,64 @@
+/* IE-Compatible Stylesheet */
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background-color: #f8f8f8;
+}
+
+/* Header with centered text */
+.header {
+  text-align: center; /* Supported in IE */
+  background-color: #004080;
+  color: white;
+  padding: 15px;
+}
+
+/* Main content */
+.content {
+  padding-left: 20px;    /* Instead of padding-inline-start */
+  padding-right: 20px;   /* Instead of padding-inline-end */
+  margin-left: 10px;     /* Instead of margin-inline */
+  margin-right: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Paragraph wrapping */
+p {
+  word-wrap: break-word;     /* Supported in IE */
+  overflow-wrap: break-word; /* Modern fallback */
+}
+
+/* Buttons */
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center; /* Supported in IE */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* RTL support fallback */
+.rtl-text {
+  direction: rtl;
+  text-align: left; /* override for RTL text */
+}

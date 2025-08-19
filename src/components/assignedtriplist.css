@@ -1,0 +1,28 @@
+/* src/styles/assignedtriplist.css */
+
+.assigned-trip-list {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.assigned-trip-list h2 {
+  margin-bottom: 1rem;
+}
+
+.assigned-trip-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.assigned-trip-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ddd;
+  /* padding-top: 20px; */
+  /* padding-bottom:20px; */
+}
+
+.assigned-trip-list li:last-child {
+  border-bottom: none;
+}

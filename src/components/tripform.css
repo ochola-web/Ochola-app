@@ -1,0 +1,41 @@
+/* src/styles/tripform.css */
+
+.trip-form {
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.trip-form h2 {
+  margin-bottom: 1rem;
+}
+
+.trip-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.trip-form input,
+.trip-form select,
+.trip-form textarea {
+  width: 95%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.trip-form button {
+  padding: 0.6rem 1rem;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left:350px;
+}
+
+.trip-form button:hover {
+  background-color: #0056b3;
+}
